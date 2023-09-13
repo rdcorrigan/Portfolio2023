@@ -1,3 +1,5 @@
+/* MY STYLES AT THE END */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +8,9 @@
 }
 
 :root {
-  --themeColor: 29, 161, 242;
+  /* --themeColor: 29, 161, 242; */
   /* Theme Color in (R,G,B) format */
+  background-color: rgb(212, 98, 244);
 }
 
 html {
@@ -68,7 +71,7 @@ a {
   padding: 1.8rem 4rem;
   font-size: 1.8rem;
   border-radius: 5px;
-  border: 2px solid rgba(var(--themeColor), 1);
+  border: 2px solid rgba(109, 65, 210, 1);
 }
 
 @media (max-width: 37.5em) {
@@ -78,13 +81,13 @@ a {
 }
 
 .btn-theme {
-  background: rgba(var(--themeColor), 1);
+  background: rgba(109, 65, 210, 1);
   color: #fff;
   box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
 }
 
 .btn-inv {
-  color: rgba(var(--themeColor), 1);
+  color: rgba(109, 65, 210, 1);
   background: #fff;
 }
 
@@ -231,8 +234,8 @@ a {
 
 .main-header__logo-img-cont {
   margin-right: 1.5rem;
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 6rem;
   overflow: hidden;
   border-radius: 10rem;
   background: rgba(var(--themeColor), 1);
@@ -974,4 +977,11 @@ a {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+
+/* MY STYLES */
+
+.main-footer__bottom a {
+  text-decoration: none;
 }
