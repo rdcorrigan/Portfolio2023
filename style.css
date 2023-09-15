@@ -987,6 +987,18 @@ a {
   margin-left: auto;
  }
 
+@media (min-width: 37.5em) {
+  #buttonResume {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  #buttonResume {
+    padding: 1.7rem 2rem;
+  }
+}
+
 .projects__list-item-img {
   border-radius: 3%;
   transition: all 300ms ease-out;
@@ -1009,10 +1021,6 @@ a {
 
 .main-footer__bottom a {
   text-decoration: none;
-}
-
-.backEndBtn {
-  margin-left: 2rem;
 }
 
 .backEndBtn, .frontEndBtn {
