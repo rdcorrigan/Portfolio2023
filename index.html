@@ -25,7 +25,7 @@
       </div>
       <h4 class="main-header__logo-text">Ryan Corrigan</h4>
     </div>
-    <nav class="main-header__navigation">
+    <nav class="main-header__navigation push">
       <ul class="main-header__navigation-links">
         <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
         <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
@@ -59,7 +59,9 @@
         </li>
       </ul>
     </div>
-    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+    <a href="./assets/Resume_RyanCorrigan2023.pdf" target="_blank">
+      <button class="btn btn-theme btn-sm">Download CV</button>
+    </a>
   </header>
 
   <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
@@ -206,7 +208,7 @@
             </div>
             <div class="projects__list-item-details">
               <div class="">
-                <img src="./assets/calculatorAppScreenShotRounded.PNG" alt="Project Image" class="projects__list-item-img" />
+                <img src="./assets/calculatorLogoPortfolio.png" alt="Project Image" class="projects__list-item-img projectImgs" />
               </div>
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
                 Mathematical Expression Parser and Calculator
@@ -220,47 +222,50 @@
                 <!-- <br />
                   <br /> -->
                 <span>
-                  I used code I wrote for a Codewars challenge into this fully functional calculator application.
+                  I used code I wrote for a Codewars challenge to build this fully functional calculator application.
                 </span>
               </p>
               <a href="https://rdcorrigan.github.io/calculatorApp/" target="_blank">
                 <button class="btn btn-theme projects__btn-theme">
-                  Live Link
+                  See Live
                 </button>
               </a>
               <a href="https://github.com/rdcorrigan/calculatorApp" target="_blank">
-                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                <button class="btn btn-inv projects__btn-inv">Source Code</button>
               </a>
             </div>
           </div>
           <div class="projects__list-item projects__list-item--inv">
             <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              <div class="">
+                <img src="./assets/smartBrainLogo.PNG" alt="Project Image" class="projects__list-item-img projectImgs projectImgRightSide" />
               </div>
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
+                Smart-Brain Face Recognition Application
               </h3>
               <!-- <hr class="projects__title-text-divider" /> -->
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
+                  My Smart-Brain App uses an artificial intelligence API to detect faces in any image you choose. Just enter an image URL into the input field and submit.
                 </span>
                 <!-- <br />
                   <br /> -->
                 <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
+                  The AI will identify where the face is located and a square perimeter will appear around the face.
                 </span>
               </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+              <a href="https://smartbrainapp-a0qo.onrender.com/" target="_blank">
+                <button class="btn btn-theme projects__btn-theme">
+                  See Live
+                </button>
+              </a>
+              <a href="https://github.com/rdcorrigan/smart-brain" target="_blank">
+                <button class="btn btn-inv projects__btn-inv frontEndBtn">Front-End Code</button>
+              </a>
+              <a href="https://github.com/rdcorrigan/smart-brain-api" target="_blank">
+                <button class="btn btn-inv projects__btn-inv backEndBtn">Back-End Code</button>
+              </a>
             </div>
             <div class="projects__list-item-count">
               <span class="projects__list-item-count-num"> 2 </span>
@@ -275,32 +280,34 @@
               <span class="projects__list-item-count-end-dot"> </span>
             </div>
             <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              <div class="">
+                <img src="./assets/squareDance.gif" alt="Project Image" class="projects__list-item-img projectImgs" />
               </div>
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
+                Square Dance Animation
               </h3>
               <!-- <hr class="projects__title-text-divider" /> -->
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
+                  A fun animation I made for Zero to Mastery's Animation-Nation open source project. 
                 </span>
                 <!-- <br />
                   <br /> -->
                 <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
+                  The animation was made with pure CSS.
                 </span>
               </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+              <a href="https://rdcorrigan.github.io/squareDanceAnimation/" target="_blank">
+                <button class="btn btn-theme projects__btn-theme">
+                  See Live
+                </button>
+              </a>
+              <a href="https://github.com/rdcorrigan/squareDanceAnimation" target="_blank">
+                <button class="btn btn-inv projects__btn-inv">
+                  Source Code
+                </button>
+              </a>
             </div>
           </div>
           <div class="projects__list-item projects__list-item--inv">
@@ -309,7 +316,7 @@
                 <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
               </div>
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
+                Lazy Dog Website
               </h3>
               <!-- <hr class="projects__title-text-divider" /> -->
 
@@ -327,10 +334,14 @@
                   sit amet, consectetur adipisicing elit
                 </span>
               </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+              <a href="https://rdcorrigan.github.io/lazyDog2023/" target="_blank">
+                <button class="btn btn-theme projects__btn-theme">
+                  See Live
+                </button>
+              </a>
+              <a href="https://github.com/rdcorrigan/lazyDog2023" target="_blank">
+                <button class="btn btn-inv projects__btn-inv">Source Code</button>
+              </a>
             </div>
             <div class="projects__list-item-count">
               <span class="projects__list-item-count-num"> 4 </span>
@@ -397,16 +408,16 @@
               src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
               alt="" class="main-footer__social-link-icon" />
           </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
-          </a>
           <a href="https://www.linkedin.com/in/ryan-corrigan-3bb40b130/" target="_blank" class="main-footer__social-link">
             <img
               src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
               alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://discordapp.com/users/840278708836630549" target="_blank" class="main-footer__social-link">
+            <img src="./assets/discordIconGimpEdited.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.codewars.com/users/Philippians413" target="_blank" class="main-footer__social-link">
+            <img src="./assets/codewarsIconGimpEdited.png" alt="" class="main-footer__social-link-icon" />
           </a>
         </div>
       </div>
