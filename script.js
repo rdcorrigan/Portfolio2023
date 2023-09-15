@@ -78,12 +78,6 @@ smMenuCloseBtn.addEventListener('click', () => {
 })
 
 
-const headerLogoConatiner = document.querySelector('.main-header__logo-container')
-
-headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'index.html'
-})
-
 
 const button = document.getElementById("buttonResume");
 
