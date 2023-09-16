@@ -989,7 +989,7 @@ a {
 
 @media (min-width: 37.5em) {
   #buttonResume {
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.5rem;
   }
 }
 
@@ -1027,3 +1027,4 @@ a {
   padding-left: 10px;
   padding-right: 10px;
 }
+

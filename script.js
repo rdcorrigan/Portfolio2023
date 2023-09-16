@@ -8,6 +8,8 @@ const smMenuLink2 = document.querySelector('.main-header__sm-menu-link--2')
 const smMenuLink3 = document.querySelector('.main-header__sm-menu-link--3')
 const smMenuLink4 = document.querySelector('.main-header__sm-menu-link--4')
 
+const buttonResume = document.getElementById("buttonResume");
+
 smMenuBtn.addEventListener('click', () => {
   smMenu.style.transitionDelay = '0s'
   smMenu.classList.add('main-header__sm-menu--active')
@@ -77,20 +79,13 @@ smMenuCloseBtn.addEventListener('click', () => {
   smMenu.classList.remove('main-header__sm-menu--active')
 })
 
-
-
-const button = document.getElementById("buttonResume");
-
-function updateButtonText() {
+const updateButtonText = () => {
     if (window.innerWidth <= 600) {
-        button.innerText = "Resume";
+        buttonResume.innerText = "Resume";
     } else {
-        button.innerHTML = "Download<br> Resume";
+        buttonResume.innerHTML = "Download<br> Resume";
     }
 }
 
-// Call the function initially to set the button text
 updateButtonText();
-
-// Attach a resize event listener to update the button text when the screen width changes
 window.addEventListener("resize", updateButtonText);

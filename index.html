@@ -6,12 +6,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Corrigan | Web Developer</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
-  <title>Ryan Corrigan | Web Developer</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=2"  />
 </head>
 
 <body>
@@ -353,27 +358,33 @@
       
       <div class="main-section__content">
         <div class="contact__form-cont">
-          <form class="contact__form">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzglrov" method="POST" class="contact__form">
+          
             <div class="contact__form-field">
-              <label for="name" class="contact__form-field-label">Name</label>
-              <input placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
+              <label for="full-name" class="contact__form-field-label">Full Name</label>
+              
+              <input type="text" name="name" id="full-name" placeholder="Enter Your Name" required="" class="contact__form-field-input">
+              
             </div>
             <div class="contact__form-field">
-              <label for="name" class="contact__form-field-label">Email</label>
-              <input placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
+              <label for="email-address" class="contact__form-field-label">Email Address</label>
+              
+              <input type="email" name="_replyto" id="email-address" placeholder="Enter Your Email" required="" class="contact__form-field-input">
+      
             </div>
             <div class="contact__form-field">
-              <label for="name" class="contact__form-field-label">Message</label>
-              <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
+              <label for="message" class="contact__form-field-label">Message</label>
+              
+              <textarea rows="5" name="message" id="message" placeholder="Enter Your Message" required="" id="" cols="30" rows="10"
                 class="contact__form-field-input"></textarea>
+              
             </div>
-            <button type="submit" class="contact__form-submit">Submit</button>
+            <input  name="_subject" id="email-subject" value="Submit" type="submit" class="contact__form-submit">
           </form>
           <div class="contact__form-visual"></div>
         </div>
       </div>
     </div>
-
   </section>
   <footer class="main-footer">
     <div class="main-footer__upper">
