@@ -7,10 +7,10 @@
 
 :root {
   /* --themeColor: 29, 161, 242; */
-  --btnColor: 109, 65, 210;
+  --btnColor: 225, 0, 0;
   /* Theme Color in (R,G,B) format */
   /* background-color: rgb(212, 98, 244); */
-  background: linear-gradient(to right,rgb(250, 167, 73),rgb(213, 19, 213));  
+  background: linear-gradient(to right,rgb(252, 193, 44),rgb(228, 57, 57));  
 }
 
 html {
@@ -71,7 +71,7 @@ a {
   padding: 1.8rem 4rem;
   font-size: 1.8rem;
   border-radius: 5px;
-  border: 2px solid rgba(109, 65, 210, 1);
+  border: 2px solid rgba(225, 0, 0, 1);
 }
 
 @media (max-width: 37.5em) {
@@ -87,7 +87,7 @@ a {
 }
 
 .btn-inv {
-  color: rgba(109, 65, 210, 1);
+  color: rgba(225, 0, 0, 1);
   background: #fff;
 }
 
@@ -183,7 +183,7 @@ a {
 
 .text-primary {
   font-size: 1.9rem;
-  color: #444;
+  color: #121212;
   line-height: 1.6;
 }
 
